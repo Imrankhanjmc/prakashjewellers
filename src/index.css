@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --color-jewel-green: #18372F;
+  --color-jewel-green-dark: #102520;
+  --color-jewel-ivory: #F8F5EF;
+  --color-jewel-gold: #C6A66B;
+  --color-jewel-gold-dark: #A98A50;
+  --color-jewel-charcoal: #282823;
+  --color-jewel-beige: #E9E1D4;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F8F5EF;
+  color: #282823;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Accessible visible focus indicators */
+*:focus-visible {
+  outline: 2px solid #C6A66B;
+  outline-offset: 2px;
+}

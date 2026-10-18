@@ -92,7 +92,7 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-6">
               <div className="relative aspect-[16/11] sm:aspect-[4/3] bg-white p-2 sm:p-3 border border-[#E9E1D4] shadow-sm">
                 <img
-                  src="/src/assets/images/hero_prakash_jewellery_1792309471726.jpg"
+                  src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1200&q=85"
                   alt="Traditional South Indian 22k gold necklace showcasing intricate filigree workmanship"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -114,7 +114,7 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-5 order-2 lg:order-1">
               <div className="relative aspect-[4/3] bg-[#F8F5EF] p-2 border border-[#E9E1D4]">
                 <img
-                  src="/src/assets/images/showroom_boutique_interior_1792309472275.jpg"
+                  src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1000&q=85"
                   alt="Prakash Jewellers boutique showroom interior in Kottivakkam Chennai"
                   referrerPolicy="no-referrer"
                   loading="lazy"
@@ -181,7 +181,7 @@ export const Home: React.FC = () => {
                 to={`/collections/${cat.slug}`}
                 className="group flex flex-col bg-white border border-[#E9E1D4] overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
               >
-                <div className="relative aspect-[4/3] overflow-hidden bg-[#F8F5EF]">
+                <div className="relative aspect-4/3 overflow-hidden bg-[#F8F5EF]">
                   <img
                     src={cat.image}
                     alt={cat.title}
@@ -298,7 +298,7 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-6">
               <div className="relative aspect-[4/3] bg-[#102520] p-3 border border-[#C6A66B]/30 shadow-xl">
                 <img
-                  src="/src/assets/images/gold_necklace_temple_1792309472783.jpg"
+                  src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1200&q=85"
                   alt="Intricate South Indian temple gold necklace"
                   referrerPolicy="no-referrer"
                   loading="lazy"

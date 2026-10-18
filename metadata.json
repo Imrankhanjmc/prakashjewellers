@@ -1,0 +1,8 @@
+{
+  "name": "Remix Prakash Jewellers — Premium Jewellery Showroom",
+  "description": "Premium jewellery showroom website for Prakash Jewellers located on East Coast Road in Kottivakkam, Chennai.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
